@@ -30,9 +30,9 @@ public class Fruit {
         this.name = name;
     }
 
-    /*
-    // substituit getName por este metodo en
-    // la serializacion a JSON
+    /**
+    substituit getName por este metodo en
+    la serializacion a JSON
     @JsonGetter("name")
     public String nombre() {
         return "UMAMI";
